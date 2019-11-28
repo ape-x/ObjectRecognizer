@@ -13,6 +13,7 @@
 		7A9E9D8C2390013E00EAB8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E9D8A2390013E00EAB8AC /* Main.storyboard */; };
 		7A9E9D8E2390013F00EAB8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E9D8D2390013F00EAB8AC /* Assets.xcassets */; };
 		7A9E9D912390013F00EAB8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9E9D8F2390013F00EAB8AC /* LaunchScreen.storyboard */; };
+		7A9E9D99239003A600EAB8AC /* foodsterModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E9D98239003A600EAB8AC /* foodsterModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7A9E9D8D2390013F00EAB8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9E9D902390013F00EAB8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9E9D922390013F00EAB8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9E9D98239003A600EAB8AC /* foodsterModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = foodsterModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7A9E9D8A2390013E00EAB8AC /* Main.storyboard */,
 				7A9E9D8D2390013F00EAB8AC /* Assets.xcassets */,
 				7A9E9D8F2390013F00EAB8AC /* LaunchScreen.storyboard */,
+				7A9E9D98239003A600EAB8AC /* foodsterModel.mlmodel */,
 				7A9E9D922390013F00EAB8AC /* Info.plist */,
 			);
 			path = ObjectRecognizer;
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A9E9D99239003A600EAB8AC /* foodsterModel.mlmodel in Sources */,
 				7A9E9D892390013E00EAB8AC /* ViewController.swift in Sources */,
 				7A9E9D852390013E00EAB8AC /* AppDelegate.swift in Sources */,
 				7A9E9D872390013E00EAB8AC /* SceneDelegate.swift in Sources */,
